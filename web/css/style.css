@@ -1,0 +1,109 @@
+*{
+	transition: all .1s ease-in;
+}
+body{
+	background: #4d5354 url(..//img/BackGround.png) no-repeat right;
+}
+
+form{
+	background-color: #ffffff;
+	margin:30px auto;
+	width: 336px;
+	height: 532px;
+	font-family: "Montserrat";
+	color: #6e7f7b;
+}
+
+/*header*/
+.top{
+	display: inline-block;
+	background-color: #f8edaf;
+	width: 336px;
+	height:72px;
+}
+.sum{
+	float: right;
+	margin: 14px 20px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 600;
+}
+.user{
+	float: left;
+	margin: 16px 20px;
+}
+.user span:nth-child(3){
+	font-size: 10px;
+	color: #a6a28d;
+}
+
+/*Data cart*/
+.margin_20{
+	margin: 30px 20px;
+}
+
+.cart_dani span{
+	font-size: 13px;
+	color: #9eabad;
+}
+
+.cart_dani input, .cart_dani select{
+	border:2px solid #bac8cb;
+	box-sizing: border-box;
+	height: 44px;
+	margin: 5px 0 15px;
+}
+input, select{
+	color: #727f82;
+	font-size: 13px;
+	font-weight: 400;
+	padding-left: 5px;
+}
+.number{
+	width: 100%;
+}
+
+.cvv{
+	width: 100px;
+}
+.month{
+	width: 180px;
+}
+.year{
+	width: 96px;
+	float: right;
+}
+hr{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #edf0f1;
+}
+
+/*footer*/
+.button{
+	width: 100%;
+	height: 48px;
+	border:none;
+	letter-spacing: 1px;
+}
+.button:hover{
+	cursor: pointer;
+}
+
+.pay_but{
+	background-color: #25b86a;
+	font-size: 20px;
+	font-weight: 700;
+	color: #ffffff;
+}
+a{
+	font-size: 12px;
+	color: #9eabad;
+	text-decoration-color: #dbe1e1;
+}
+.canc_but{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 25px;
+}

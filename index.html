@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment-form</title>	
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="web/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+
+</head>
+<body>
+	<main>
+		<form>
+			<section class="top">
+				<div class="user">
+					<span><b>Harold Finch</b></span>
+					<br>
+					<span>YOUR TOTAL</span>
+				</div>
+				<div class="sum">
+					<span>$88</span>
+				</div>
+			</section>
+			<section class="cart_dani margin_20">
+				<div class="nub_card">
+					<span class="sp1">Credit card number</span><br>
+					<input type="text" name="Cart_number" class="number" maxlength="16" minlength="16" placeholder="Your cart number" required>
+				</div>
+				<div class="date_card">
+					<span>Expiration date</span><br>
+					<select class="month">
+						<option>Month</option>
+						<option value="January">January</option>
+						<option value="February">February</option>
+						<option value="March">March</option>
+						<option value="April">April</option>
+						<option value="May">May</option>
+						<option value="June">June</option>
+						<option value="July">July</option>
+						<option value="August">August</option>
+						<option value="September">September</option>
+						<option value="October">October</option>
+						<option value="November">November</option>
+						<option value="December">December</option>
+					</select>
+					<select class="year">
+						<option>Year</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+						<option value="2023">2023</option>
+						<option value="2024">2024</option>
+						<option value="2025">2025</option>
+					</select>
+				</div>
+				<div class="cvv_card">
+					<span>CVV</span>
+					<br>
+					<input type="text" name="Cart_cvv" class="cvv" minlength="3" maxlength="4" required>
+					<span>3 or 4 digits - <a href="" class="view_example">view example</a></span>
+				</div>
+			</section>
+			<hr>
+			<section class="margin_20">
+				<div>
+					<input type="submit" name="pay" value="Pay" class="button pay_but">
+					<br>
+					<a href="#" class="canc_but">Cancel order</a> 
+				</div>
+			</section>
+		</form>
+	</main>
+</body>
+</html>
