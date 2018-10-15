@@ -102,7 +102,11 @@ a{
 	text-decoration-color: #dbe1e1;
 }
 .canc_but{
-	display: block;
+	background-color:#fff; 
+	border:none;
+	cursor: pointer;
+	text-decoration-line: underline;
+	color: #a6a28d;
 	width: 100%;
 	text-align: center;
 	margin-top: 25px;
